@@ -1,13 +1,16 @@
 """
 =============================================================================
- ADPS-Core : Data Poisoning Tool (Concept)
+ ADPS-Core : Veri Zehirleme Aracı (Konsept Çalışması)
 =============================================================================
-This script is a proof-of-concept for 'Layer 1: Algorithmic Disobedience'.
-It randomly generates search queries from a list of disparate topics and 
-executes them in the background, polluting the predictive profile built 
-by data brokers.
+Bu betik (script), 'Katman 1: Algoritmik İtaatsizlik' felsefesinin bir
+kanıtı (proof-of-concept) niteliğindedir. Alakasız ve birbirinden tamamen 
+uzak konularda rastgele arama sorguları oluşturarak bunları arka planda
+çalıştırır. Amacı, veri simsarları (data brokers) tarafından sizin
+hakkınızda oluşturulan tahmin ve gözetim profillerini kirletmek ve 
+yanıltmaktır.
 
-Disclaimer: Use responsibly. Ensure compliance with terms of service.
+Uyarı: Eğitsel/Kavramsal amaçlıdır. Platformların hizmet şartlarına uygun 
+kullanın.
 =============================================================================
 """
 
@@ -15,16 +18,16 @@ import time
 import random
 import requests
 
-# A diverse set of topics to confuse classification algorithms
+# Sınıflandırma algoritmalarının kafasını karıştıracak birbirinden kopuk konular
 TOPICS = [
-    "quantum computing basics", "how to knit a sweater", 
-    "history of the Byzantine Empire", "best heavy metal bands 1980s",
-    "advanced organic chemistry tutorials", "vegan recipes for dogs",
-    "buy luxury yachts online", "existentialism vs nihilism",
-    "cheap flights to Ulaanbaatar", "learning ancient Greek",
-    "diy solar panels", "artificial intelligence alignment",
-    "the philosophy of stoicism", "how to grow tomatoes",
-    "urban guerrilla gardening", "understanding the federal reserve"
+    "kuantum bilgisayarların çalışma mantığı", "evde koyun yünü nasıl örülür", 
+    "bizans imparatorluğu'nun tarihi", "1980'lerin en iyi heavy metal grupları",
+    "ileri düzey organik kimya problemleri", "köpekler için vegan tarifler",
+    "internetten lüks yat satın alma rehberi", "varoluşçuluk ve nihilizm farkı",
+    "moğolistan ulan batur ucuz uçak bileti", "antik yunanca dili nasıl öğrenilir",
+    "kendin yap güneş paneli kurulumu", "yapay zeka hizalama problemi",
+    "stoacı felsefe ve iç huzur", "balkonda sırık domates yetiştiriciliği",
+    "şehirde gerilla bahçecilik (guerrilla gardening)", "amerikan merkez bankası nasıl işler"
 ]
 
 SEARCH_ENGINES = [
@@ -33,29 +36,29 @@ SEARCH_ENGINES = [
 ]
 
 def generate_noise(iterations=5):
-    print("[*] Initiating Data Poisoning Protocol...")
+    print("[*] Veri Zehirleme (Data Poisoning) Protokolü Başlatılıyor...")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ADPS-Obfuscator/1.0"
     }
 
     for i in range(iterations):
         query = random.choice(TOPICS)
-        # Simple URL encoding replacement for spaces
+        # Boşlukları basit URL kodlamasına çevir
         encoded_query = query.replace(" ", "+")
         engine = random.choice(SEARCH_ENGINES).format(encoded_query)
         
-        print(f"[-] Injecting fake interest: '{query}'")
+        print(f"[-] Sahte ilgi alanı enjekte ediliyor: '{query}'")
         try:
-            # Send a HEAD request to avoid downloading massive payloads
+            # Büyük dosya yüklemelerini önlemek için sadece HEAD isteği (request) gönder
             response = requests.head(engine, headers=headers, timeout=5)
-            print(f"    [+] Status: {response.status_code}")
+            print(f"    [+] Durum: {response.status_code}")
         except requests.exceptions.RequestException as e:
-            print(f"    [!] Request failed: {e}")
+            print(f"    [!] İstek başarısız oldu: {e}")
         
-        # Random sleep to mimic human behavior
+        # İnsan davranışını taklit etmek için rastgele bekleme süresi
         sleep_time = random.uniform(2.0, 7.0)
         time.sleep(sleep_time)
 
 if __name__ == "__main__":
     generate_noise()
-    print("[*] Protocol Complete. Profile polluted.")
+    print("[*] Protokol Tamamlandı. Gözetim algoritmasının profili zehirlendi.")

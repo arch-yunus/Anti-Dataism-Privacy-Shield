@@ -1,21 +1,21 @@
-# Layer 2: Cognitive Firewall (Bilişsel Karantina)
+# Katman 2: Bilişsel Karantina (Cognitive Firewall)
 
-## Overview
-Dataism doesn't just want your data; it wants to architect your reality. The Cognitive Firewall is a mental and technological barrier designed to filter subliminal influences and break engagement loops before they alter your neural pathways.
+## Genel Bakış
+Dataizm sadece verilerinizi çalmakla ilgilenmez; sizin gerçeklik algınızı (Matrix'inizi) sıfırdan inşa etmek ister. Bilişsel güvenlik duvarı (Karantina), bilinçaltı manipülasyonları filtrelemek ve dijital tetikleyiciler sizin nöral yollarınızı değiştirmeden önce, o etkileşim döngülerini (engagement loops) kırmak için tasarlanmış zihinsel ve teknolojik bir bariyerdir.
 
-## Core Mechanics
+## Temel Mekanikler
 
-### 1. Echo Chamber Escape (Yankı Odasından Çıkış)
-Algorithmic reality is a customized Platonian Cave. The system ensures you only see shadows that validate your pre-existing biases, making you malleable.
-- **Action:** Actively consume media from opposing viewpoints. Read primary sources rather than summarized synthesized narratives.
-- **Effect:** Builds cognitive resilience against mass hysteria, polarized tribalism, and manufactured consent.
+### 1. Yankı Odasından Çıkış (Echo Chamber Escape)
+Algoritmaların inşa ettiği gerçeklik, tamamen size özel tasarlanmış modern bir Platon'un Mağarası'dır. Sistem, yönlendirilebilir olmanız için, size yalnızca önceden var olan inançlarınızı doğrulayan (haklılığınızı tasdikleyen) gölgeler gösterir.
+- **Eylem:** Aktif olarak karşıt görüşlerden medya ve içerik tüketin. Sentezlenmiş, özetlenmiş veya manipüle edilmiş algısal "haberler" yerine birincil bilgi kaynaklarını okuyun.
+- **Etki:** Kitlesel histeriye, kutuplaşmış kabileciliğe ve "üretilmiş rızaya" karşı sağlam bir bilişsel dayanıklılık inşa eder.
 
-### 2. The Subliminal Daemon
-A background habit of critical ingestion. Every piece of technology carries the hidden philosophy of its creator. 
-- **Action:** Before adopting a new app or platform, run the "Deconstruction Query": 
-  *What friction is this removing? What human capability does it atrophy? Does it serve my autonomy or extract my attention?*
-- **Effect:** Upgrades the user from a passive consumer to an active auditor of their digital environment.
+### 2. Subliminal Filtre (Deconstruction Query)
+Dijital tüketimde arka planda sürekli çalışan analitik bir zihin alışkanlığı (Daemon) kurmak. Tüketilen her teknoloji ve uygulama, yaratıcısının gizli felsefesini taşır.
+- **Eylem:** Yeni bir uygulamayı veya platformu hayatınıza sokmadan önce şu Söküm (Deconstruction) Sorgusunu çalıştırın:
+  *Bu teknoloji hayatımdaki hangi zorluğu/sürtünmeyi kaldırıyor? Karşılığında benim hangi fıtri insan yeteneğimi köreltiyor? Bu benim irademe mi hizmet ediyor, yoksa sadece dikkatimi sömürüp beni mi satıyor?*
+- **Etki:** Kullanıcıyı pasif bir sömürü kaynağından, kendi dijital ortamının aktif bir denetçisi statüsüne yükseltir.
 
-## Defense Protocols
-1. **Information Asymmetry Reversal:** Read books printed before the 2000s to anchor your understanding of the world outside the current algorithmic paradigm.
-2. **Attention Budgeting:** Treat attention as a finite, non-renewable resource. Implement structural barriers (app timers, greyscale screens) to induce friction.
+## Savunma Protokolleri
+1. **Bilgi Asimetrisini Tersine Çevirme:** Dünyayı mevcut algoritmik sistemin (Dataist paradigmanın) dışında anlayabilmek ve köklerinize dönmek için 2000'lerden önce basılmış kitapları okuyun.
+2. **Dikkat Bütçelemesi:** Dikkatinizi, sınırlı ve yenilenemez bir organik kaynak olarak görün. Akıllı telefonunuza teknolojik sürtünmeler (uygulama süre sınırları, monokrom/gri ekran filtreleri) uygulayarak, el alışkanlığıyla oluşan hipnotik scroll (kaydırma) döngüsünü bilinçli olarak bozun.

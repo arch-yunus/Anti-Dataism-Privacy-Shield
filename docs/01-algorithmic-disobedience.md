@@ -1,22 +1,22 @@
-# Layer 1: Algorithmic Disobedience (Algoritmik İtaatsizlik)
+# Katman 1: Algoritmik İtaatsizlik (Algorithmic Disobedience)
 
-## Overview
-The foundational layer of the Anti-Dataism Privacy Shield (ADPS). In the dataist era, algorithms rely on predictable human behavior to construct accurate psychographic profiles. Algorithmic disobedience aims to poison this data well, making your profile useless for manipulation.
+## Genel Bakış
+Anti-Dataizm Gizlilik Kalkanı'nın (ADPS) temel katmanıdır. Dataist çağda algoritmalar, doğru psikografik profiller oluşturmak için tahmin edilebilir insan davranışlarına güvenir. Algoritmik itaatsizlik, bu veri havuzunu zehirlemeyi (gürültü üretmeyi) ve böylece profilinizi manipülasyon için işe yaramaz hale getirmeyi amaçlar.
 
-## Core Mechanics
+## Temel Mekanikler
 
-### 1. Data Poisoning (Gürültü Üretimi)
-Instead of starving the algorithm (which alerts the system to a "ghost" user), feed it toxic, contradictory data.
-- **Action:** Automate random queries across search engines. Watch videos outside your demography. Click on ads for products you despise.
-- **Effect:** The user profile becomes statistically insignificant and fundamentally flawed, rendering predictive models inaccurate.
+### 1. Veri Zehirleme (Gürültü Üretimi)
+Algoritmayı aç bırakmak (ki bu sistemi "hayalet" bir kullanıcıya karşı uyarır) yerine, onu toksik ve çelişkili verilerle besleyin.
+- **Eylem:** Arama motorlarında rastgele sorguları otomatikleştirin. Demografinizin dışında videolar izleyin. Asla kullanmayacağınız veya nefret ettiğiniz ürünlerin reklamlarına tıklayın.
+- **Etki:** Kullanıcı profiliniz istatistiksel tutarlılığını kaybeder, temelden kusurlu hale gelir ve yapay zekanın sahip olduğu tahmin (predictive) modelleri tamamen yanılır.
 
-### 2. Rejecting Recommendation Engines
-Algorithms optimize for engagement, often leading to echo chambers and polarized cognitive states.
-- **Action:** Disable "Autoplay". Unsubscribe from tailored feeds. Use chronological timelines. Seek out content using raw, un-personalized search tools (e.g., SearXNG or DuckDuckGo).
-- **Effect:** Reclaims decision autonomy. You decide what enters your cognitive space, not an A/B tested engagement loop.
+### 2. Tavsiye Motorlarını (Önerileri) Reddetme
+Algoritmalar etkileşim için (engagement) optimize edilir. Bu genellikle yankı odalarına (echo chambers) ve kutuplaşmış bilişsel durumlara yol açar.
+- **Eylem:** "Otomatik Oynat" (Autoplay) özelliğini devre dışı bırakın. Size özel hazırlanmış akış aboneliklerinden çıkın. Kronolojik zaman akışları kullanın. İçerikleri ham, kişiselleştirilmemiş arama araçlarıyla (ör. SearXNG veya DuckDuckGo) kendiniz manuel arayarak bulun.
+- **Etki:** Karar alma otonominizi (iradenizi) geri kazanırsınız. Bilişsel alanınıza neyin gireceğine milyon dolarlık A/B testleriyle tasarlanmış kod blokları değil, tamamen siz karar verirsiniz.
 
-## Defense Protocols
-1. **The Ghost Protocol:** Use disposable identities and compartmentalized browsers for different activities (e.g., Firefox for work, Brave for personal, Tor for research).
-2. **Obfuscation Tools:** Deploy tools like AdNauseam to automatically click on all blocked ads, blinding ad-networks with white noise.
+## Savunma Protokolleri
+1. **Hayalet Protokolü:** Farklı dijital eylemleriniz için tek kullanımlık kimlikler ve parçalara ayrılmış-izole tarayıcılar kullanın (Örn: İş için Firefox, kişisel kullanım için Brave, hassas araştırmalar için Tor).
+2. **Gizlenme (Obfuscation) Araçları:** Engellenen tüm reklamlara arka planda otomatik tıklayarak reklam ağlarını "beyaz gürültüye" (white noise) boğan AdNauseam gibi araçlar kullanın.
 
-> *"If you cannot disappear, make yourself impossible to understand."*
+> *"Eğer tamamen ortadan kaybolamıyorsan, kendini anlaşılamaz hale getir."*
